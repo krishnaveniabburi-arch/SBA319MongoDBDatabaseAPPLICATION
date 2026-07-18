@@ -1,6 +1,7 @@
 book review 
 created bookreview express server node mongodb application 
 created blogDB database and connected to mongoose i see my created data in mongoDB as BLOGDB(comments,posts,users) 
+created controllers to handle API routes
 created routes and connected ti DB
 created GET,POST,PUT/PATCH,DELETE requested i tested all requests 
 when testing 
