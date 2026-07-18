@@ -23,7 +23,12 @@ app.use("/post1", postRoutes);
 app.use("/comment1", commentRoutes);
 
 app.get("/", (req,res) => {
-    res.send("result")
+    res.send("API is running")
+});
+
+app.use((req, res) => {
+    res.status(404).json({error: "route not foound"});
+    
 });
 
 app.listen(PORT, () =>{
